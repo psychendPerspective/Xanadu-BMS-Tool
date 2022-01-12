@@ -113,10 +113,10 @@ Item {
                 createEditorMc("CANID")
                 createEditorMc("CANIDStyle")
                 createEditorMc("CANBaudRate")
-                break;
-            case "CAN messaging":
-                createEditorMc("emitStatusOverCAN")
                 createEditorMc("emitStatusProtocolType")
+                createEditorMc("emitStatusChargerProtocol")
+                break;
+            case "CAN advanced features":
                 createEditorMc("useCANSafetyInput")
                 createEditorMc("useCANDelayedPowerDown")
                 break;
@@ -201,7 +201,7 @@ Item {
                     case "CAN":
                         tabBox.model = [
                                     "CAN configuration",
-                                    "CAN messaging"
+                                    "CAN advanced features"
                                 ]
                         break;
 
