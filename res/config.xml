@@ -392,7 +392,6 @@ p, li { white-space: pre-wrap; }
             <enumNames>SumOfIndividualCellVoltages</enumNames>
             <enumNames>CAN-&gt;DieBieShunt</enumNames>
             <enumNames>CAN-&gt;Isabellenhutte</enumNames>
-            <enumNames>INA226(I2C2)</enumNames>
         </packVoltageDataSource>
         <packCurrentDataSource>
             <longName>Current data source</longName>
@@ -409,7 +408,6 @@ p, li { white-space: pre-wrap; }
             <enumNames>ISL28022 (I2C)</enumNames>
             <enumNames>CAN-&gt;DieBieShunt</enumNames>
             <enumNames>CAN-&gt;Isabellenhutte</enumNames>
-            <enumNames>INA226 (I2C)</enumNames>
             <enumNames>VESC CAN</enumNames>
         </packCurrentDataSource>
         <buzzerSignalSource>
