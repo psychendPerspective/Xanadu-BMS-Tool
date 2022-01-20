@@ -57,6 +57,11 @@ PageRtData::PageRtData(QWidget *parent) :
     ui->ivLCGraph->graph(graphIndex)->setName("Load Voltage");
     graphIndex++;
 
+    ui->ivLCGraph->addGraph();
+    ui->ivLCGraph->graph(graphIndex)->setPen(QPen(Qt::blue));
+    ui->ivLCGraph->graph(graphIndex)->setName("Charger Voltage");
+    graphIndex++;
+
     ui->ivLCGraph->addGraph(ui->ivLCGraph->xAxis, ui->ivLCGraph->yAxis2);
     ui->ivLCGraph->graph(graphIndex)->setPen(QPen(Qt::green));
     ui->ivLCGraph->graph(graphIndex)->setName("Current");
@@ -252,6 +257,7 @@ void PageRtData::timerSlot()
         int graphIndex = 0;
         ui->ivLCGraph->graph(graphIndex++)->setData(xAxis, mPackVoltage);
         ui->ivLCGraph->graph(graphIndex++)->setData(xAxis, mLCLoadVoltage);
+        ui->ivLCGraph->graph(graphIndex++)->setData(xAxis, mChargerVoltage);
         ui->ivLCGraph->graph(graphIndex++)->setData(xAxis, mLCLoadCurrent);
 
         graphIndex = 0;
@@ -292,7 +298,7 @@ void PageRtData::valuesReceived(BMS_VALUES values)
 
     appendDoubleAndTrunc(&mPackVoltage, values.packVoltage, maxS);
     appendDoubleAndTrunc(&mLCLoadVoltage, values.loadLCVoltage, maxS);
-    appendDoubleAndTrunc(&mLCLoadCurrent, values.loadLCCurrent, maxS);
+    appendDoubleAndTrunc(&mLCLoadCurrent, values.packCurrent, maxS);
     appendDoubleAndTrunc(&mHCLoadVoltage, values.loadHCVoltage, maxS);
     appendDoubleAndTrunc(&mHCLoadCurrent, values.loadHCCurrent, maxS);
     appendDoubleAndTrunc(&mChargerVoltage, values.chargerVoltage, maxS);
