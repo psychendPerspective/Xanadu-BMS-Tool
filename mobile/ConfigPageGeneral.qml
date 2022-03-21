@@ -85,6 +85,7 @@ Item {
             switch(tabBox.currentText) {
             case "Current":
                 createEditorMc("maxAllowedCurrent")
+                createEditorMc("maxAllowedChargeCurrent")
                 break;
             case "Temperature discharging":
                 createEditorMc("allowedTempBattDischargingMax")

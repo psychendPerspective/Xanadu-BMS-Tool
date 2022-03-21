@@ -197,7 +197,7 @@ p, li { white-space: pre-wrap; }
             <minDouble>0</minDouble>
             <showDisplay>0</showDisplay>
             <stepDouble>0.05</stepDouble>
-            <valDouble>2.9</valDouble>
+            <valDouble>2.5</valDouble>
             <vTxDoubleScale>100000</vTxDoubleScale>
             <suffix>V</suffix>
             <vTx>9</vTx>
@@ -377,7 +377,7 @@ p, li { white-space: pre-wrap; }
             <vTx>9</vTx>
         </cellThrottleLowerMargin>
         <packVoltageDataSource>
-            <longName>Voltage data source</longName>
+            <longName>Pack voltage data source</longName>
             <type>4</type>
             <transmittable>1</transmittable>
             <description>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
@@ -390,7 +390,7 @@ p, li { white-space: pre-wrap; }
             <enumNames>NoSource</enumNames>
             <enumNames>ISL28022 (I2C2)</enumNames>
             <enumNames>SumOfIndividualCellVoltages</enumNames>
-            <enumNames>CAN-&gt;DieBieShunt</enumNames>
+            <enumNames>CAN-&gt;ENNOID-Shunt</enumNames>
             <enumNames>CAN-&gt;Isabellenhutte</enumNames>
         </packVoltageDataSource>
         <packCurrentDataSource>
@@ -406,9 +406,9 @@ p, li { white-space: pre-wrap; }
             <valInt>1</valInt>
             <enumNames>NoSource</enumNames>
             <enumNames>ISL28022 (I2C)</enumNames>
-            <enumNames>CAN-&gt;DieBieShunt</enumNames>
+            <enumNames>CAN-&gt;ENNOID-Shunt</enumNames>
             <enumNames>CAN-&gt;Isabellenhutte</enumNames>
-            <enumNames>VESC CAN</enumNames>
+            <enumNames>CAN-&gt;VESC</enumNames>
         </packCurrentDataSource>
         <buzzerSignalSource>
             <longName>Signal source</longName>
@@ -963,14 +963,14 @@ p, li { white-space: pre-wrap; }
             <vTx>5</vTx>
         </timeoutLCPreCharge>
         <maxAllowedCurrent>
-            <longName>Max allowed current</longName>
+            <longName>Maximum discharge current allowed</longName>
             <type>1</type>
             <transmittable>1</transmittable>
             <description>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'DejaVu Sans'; ; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Define the maximum allowed current trough the BMS.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</description>
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Define the maximum allowed current trough the BMS during discharge.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</description>
             <cDefine>MAX_ALLOWED_CURRENT</cDefine>
             <editorDecimalsDouble>2</editorDecimalsDouble>
             <editorScale>1</editorScale>
@@ -984,6 +984,28 @@ p, li { white-space: pre-wrap; }
             <suffix>A</suffix>
             <vTx>9</vTx>
         </maxAllowedCurrent>
+        <maxAllowedChargeCurrent>
+            <longName>Maximum charge current allowed</longName>
+            <type>1</type>
+            <transmittable>1</transmittable>
+            <description>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'DejaVu Sans'; ; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Define the maximum allowed current trough the BMS during charge. This feature is only available when charging with supported CAN enabled chargers.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</description>
+            <cDefine>MAX_ALLOWED_CHARGE_CURRENT</cDefine>
+            <editorDecimalsDouble>2</editorDecimalsDouble>
+            <editorScale>1</editorScale>
+            <editAsPercentage>0</editAsPercentage>
+            <maxDouble>500</maxDouble>
+            <minDouble>1</minDouble>
+            <showDisplay>0</showDisplay>
+            <stepDouble>1</stepDouble>
+            <valDouble>100</valDouble>
+            <vTxDoubleScale>100000</vTxDoubleScale>
+            <suffix>A</suffix>
+            <vTx>9</vTx>
+        </maxAllowedChargeCurrent>
         <allowedTempBattDischargingMax>
             <longName>Battery temperature discharging max</longName>
             <type>1</type>
@@ -1308,7 +1330,7 @@ p, li { white-space: pre-wrap; }
             <editorScale>1</editorScale>
             <editAsPercentage>0</editAsPercentage>
             <maxDouble>10</maxDouble>
-            <minDouble>1</minDouble>
+            <minDouble>0</minDouble>
             <showDisplay>0</showDisplay>
             <stepDouble>0.1</stepDouble>
             <valDouble>0.5</valDouble>
@@ -1358,6 +1380,26 @@ p, li { white-space: pre-wrap; }
             <suffix>ms</suffix>
             <vTx>5</vTx>
         </powerDownDelay>
+        <powerDownResetDelay>
+            <longName>Power down reset delay</longName>
+            <type>2</type>
+            <transmittable>1</transmittable>
+            <description>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'DejaVu Sans'; ; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;The amount of time between re-initiating the BMS when an external source keep the BMS powered after going into power down state. Set to 0 to prevent the BMS get re-initiated.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</description>
+            <cDefine>POWER_DOWN_RESET_DELAY</cDefine>
+            <editorScale>1</editorScale>
+            <editAsPercentage>0</editAsPercentage>
+            <maxInt>3000000</maxInt>
+            <minInt>0</minInt>
+            <showDisplay>0</showDisplay>
+            <stepInt>1000</stepInt>
+            <valInt>30000</valInt>
+            <suffix>ms</suffix>
+            <vTx>5</vTx>
+        </powerDownResetDelay>
         <stateOfChargeStoreInterval>
             <longName>State of charge store interval</longName>
             <type>2</type>
@@ -1771,9 +1813,9 @@ p, li { white-space: pre-wrap; }
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'DejaVu Sans'; ; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;When the power button is configured as a pulse switch and allowForceOn is enabled, the BMS will stay ON and will ignore the cell voltage inputs. This function can be used to get home when you know the battery is OK. For example: a wire came loose from a cell tab of the battery. This is risky! Because you can deeply discharge the battery this way. You can't charge the battery in this mode.&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;When the power button is configured as a pulse switch and allowForceOn is enabled, the BMS will stay ON and will ignore the cell voltage inputs. This function can be used to get home with a full BMS when you know the battery is OK. For example: a wire came loose from a cell tab of the battery. This is risky! Because you can deeply discharge the battery this way. You can't charge the battery in this mode.&lt;/p&gt;
 &lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;The forced-on method is activated when you long press (about 10 seconds) the power button when the bms is off. Please note, that this feature requires a momentary switch to be activated. &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</description>
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;The forced-on method is activated when you long press (about 10 seconds) the power button when the bms is off. Please note, that this feature requires a momentary switch to be activated and is irrevelant for a charge only BMS. &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</description>
             <cDefine>ALLOW_FORCE_ON</cDefine>
             <valInt>0</valInt>
         </allowForceOn>
@@ -2550,6 +2592,7 @@ p, li { white-space: pre-wrap; }
         <ser>minimalPrechargePercentage</ser>
         <ser>timeoutLCPreCharge</ser>
         <ser>maxAllowedCurrent</ser>
+        <ser>maxAllowedChargeCurrent</ser>
         <ser>allowedTempBattDischargingMax</ser>
         <ser>allowedTempBattDischargingMin</ser>
         <ser>allowedTempBattChargingMax</ser>
@@ -2603,5 +2646,6 @@ p, li { white-space: pre-wrap; }
         <ser>powerDownDelay</ser>
         <ser>humidityICType</ser>
         <ser>BMSApplication</ser>
+        <ser>powerDownResetDelay</ser>
     </SerOrder>
 </ConfigParams>
