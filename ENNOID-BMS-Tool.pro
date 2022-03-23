@@ -5,7 +5,7 @@
 #-------------------------------------------------
 INCLUDEPATH += $$PWD
 # Version
-DT_VERSION = 5.02
+DT_VERSION = 5.03
 DEFINES += DT_VERSION=$$DT_VERSION
 
 !android: {

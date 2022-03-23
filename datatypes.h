@@ -179,6 +179,12 @@ struct BMS_VALUES {
     Q_PROPERTY(double packVoltage MEMBER packVoltage)
     Q_PROPERTY(double packCurrent MEMBER packCurrent)
     Q_PROPERTY(int soC MEMBER soC)
+    Q_PROPERTY(double AhCnt MEMBER AhCnt)
+    Q_PROPERTY(double WhCnt MEMBER WhCnt)
+    Q_PROPERTY(double AhCntChg MEMBER AhCntChg)
+    Q_PROPERTY(double WhCntChg MEMBER WhCntChg)
+    Q_PROPERTY(double AhCntDis MEMBER AhCntDis)
+    Q_PROPERTY(double WhCntDis MEMBER WhCntDis)
     Q_PROPERTY(double cVHigh MEMBER cVHigh)
     Q_PROPERTY(double cVAverage MEMBER cVAverage)
     Q_PROPERTY(double cVLow MEMBER cVLow)
@@ -206,8 +212,14 @@ public:
         packVoltage = 0.0;
         packCurrent =0.0;
         soC = 0;
+        AhCnt = 0.0;
+        WhCnt = 0.0;
+        AhCntChg = 0.0;
+        WhCntChg = 0.0;
+        AhCntDis = 0.0;
+        WhCntDis = 0.0;
         cVHigh = 0.0;
-        cVAverage =0.0;
+        cVAverage = 0.0;
         cVLow = 0.0;
         cVMisMatch = 0.0;
         loadLCVoltage = 0.0;
@@ -230,6 +242,12 @@ public:
     double packVoltage;
     double packCurrent;
     int    soC;
+    double AhCnt;
+    double WhCnt;
+    double AhCntChg;
+    double WhCntChg;
+    double AhCntDis;
+    double WhCntDis;
     double cVHigh;
     double cVAverage;
     double cVLow;

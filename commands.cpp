@@ -160,6 +160,12 @@ void Commands::processPacket(QByteArray data)
         values.opState          = opStateToStr((OperationalStateTypedef)vb.vbPopFrontUint8());
         values.balanceActive    = vb.vbPopFrontUint8();
         values.faultState       = faultStateToStr((bms_fault_code)vb.vbPopFrontUint8());
+        values.AhCnt            = vb.vbPopFrontDouble32(1e3);
+        values.WhCnt            = vb.vbPopFrontDouble32(1e3);
+        values.AhCntChg         = vb.vbPopFrontDouble32(1e3);
+        values.WhCntChg         = vb.vbPopFrontDouble32(1e3);
+        values.AhCntDis         = vb.vbPopFrontDouble32(1e3);
+        values.WhCntDis         = vb.vbPopFrontDouble32(1e3);
         emit valuesReceived(values);
     } break;
 
@@ -697,6 +703,12 @@ void Commands::emitEmptyValues()
     values.opState = "Unknown";
     values.balanceActive = 0.0;
     values.faultState = "Unknown";
+    values.AhCnt = 0.0;
+    values.WhCnt = 0.0;
+    values.AhCntChg = 0.0;
+    values.WhCntChg = 0.0;
+    values.AhCntDis = 0.0;
+    values.WhCntDis = 0.0;
 
 
     emit valuesReceived(values);
@@ -728,6 +740,12 @@ void Commands::emitEmptySetupValues()
     values.opState = OP_STATE_INIT;
     values.balanceActive = 1;
     values.faultState = FAULT_CODE_NONE;
+    values.AhCnt = 0.0;
+    values.WhCnt = 0.0;
+    values.AhCntChg = 0.0;
+    values.WhCntChg = 0.0;
+    values.AhCntDis = 0.0;
+    values.WhCntDis = 0.0;
 
     emit valuesSetupReceived(values);
 }

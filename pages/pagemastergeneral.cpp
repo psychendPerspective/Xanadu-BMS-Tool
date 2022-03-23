@@ -54,15 +54,10 @@ void PageMasterGeneral::setDieBieMS(BMSInterface *dieBieMS)
         ui->powerStateTab->addParamRow(mDieBieMS->bmsConfig(), "notUsedCurrentThreshold");
         ui->powerStateTab->addParamRow(mDieBieMS->bmsConfig(), "notUsedTimeout");
         ui->powerStateTab->addParamRow(mDieBieMS->bmsConfig(), "powerDownDelay");
-        ui->powerStateTab->addParamRow(mDieBieMS->bmsConfig(), "powerDownResetDelay");
         ui->powerStateTab->addParamRow(mDieBieMS->bmsConfig(), "allowForceOn");
         ui->powerStateTab->addRowSeparator(tr("Jump to"));
         ui->powerStateTab->addParamRow(mDieBieMS->bmsConfig(), "extEnableState");
         ui->powerStateTab->addParamRow(mDieBieMS->bmsConfig(), "chargeEnableState");
-        ui->powerStateTab->addRowSeparator(tr("BMS use"));
-        ui->powerStateTab->addParamRow(mDieBieMS->bmsConfig(), "BMSApplication");
-
-
         ui->masterLimitsTab->addRowSeparator(tr("Current"));
         ui->masterLimitsTab->addParamRow(mDieBieMS->bmsConfig(), "maxAllowedCurrent");
         ui->masterLimitsTab->addParamRow(mDieBieMS->bmsConfig(), "maxAllowedChargeCurrent");

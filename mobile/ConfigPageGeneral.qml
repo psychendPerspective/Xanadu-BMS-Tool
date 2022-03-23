@@ -72,10 +72,7 @@ Item {
                 createEditorMc("extEnableState")
                 createEditorMc("chargeEnableState")
                 break;
-            case "BMS usage":
-                createEditorMc("BMSApplication")
 
-                break;
             default:
                 break;
             }

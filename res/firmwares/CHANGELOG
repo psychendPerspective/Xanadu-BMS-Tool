@@ -5,10 +5,15 @@ For uploading new firmware with bootloader already uploaded:
 - The BMS will restart once the upload is completed
 - The firmware update process is now completed
 
-=== FW 5.02 ===
-* VESC BMS CAN emit status protocol initial implementation
-* VESC tool USB initial support for main parameters configuration
-* BMS application option for electric vehicle or energy storage
+=== FW 5.03 ===
+* VESC & VESC tool CAN support, real-time-data, parameters configuration & firmware update
+* Added Ah & Wh counters
+* Low pass filtering on current readings
+* Current offset is now automatically calculated at startup
+* Fixed "forced on" mode
+* ELCON / TC Charger support over CAN J1939 and charge current throttling
+* Delta Q charger support with CANOpen and charge current throttling
+* BMS will now reboot if kept awake from an external source after "the not used timeout" is elapsed
 
 === FW 1.4 ===
 * CAN_PACKET_ID & COMM_PACKET_ID are now inline with latest VESC-BMS commands
