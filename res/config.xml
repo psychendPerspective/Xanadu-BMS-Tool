@@ -933,7 +933,7 @@ p, li { white-space: pre-wrap; }
             <editorDecimalsDouble>2</editorDecimalsDouble>
             <editorScale>1</editorScale>
             <editAsPercentage>0</editAsPercentage>
-            <maxDouble>1</maxDouble>
+            <maxDouble>0.9</maxDouble>
             <minDouble>0.01</minDouble>
             <showDisplay>0</showDisplay>
             <stepDouble>0.1</stepDouble>
@@ -1348,7 +1348,7 @@ p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; ; font-weight:400; font-style:normal;&quot;&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'DejaVu Sans';&quot;&gt;The BMS will be powered OFF when this &amp;quot;Not used timeout&amp;quot; is over. The &amp;quot;not used timeout&amp;quot; timer will reset each time the battery current goes over the &amp;quot;Not used current threshold&amp;quot; value.&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'DejaVu Sans';&quot;&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'DejaVu Sans';&quot;&gt;To disable the not used powerdown system this value can be set to 0ms, else if used, it should be set at a minimum of 5000ms.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</description>
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'DejaVu Sans';&quot;&gt;To disable the not used powerdown system this value can be set to 0ms, else if used, it should be set at a minimum of 5000ms and more if using .&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</description>
             <cDefine>NOT_USED_TIMEOUT</cDefine>
             <editorScale>1</editorScale>
             <editAsPercentage>0</editAsPercentage>
@@ -1464,7 +1464,7 @@ p, li { white-space: pre-wrap; }
             <enumNames>250kbit/s</enumNames>
             <enumNames>500kbit/s</enumNames>
         </CANBaudRate>
-        <emitStatusProtocolType>
+        <loadCANProtocol>
             <longName>Load status protocol</longName>
             <type>4</type>
             <transmittable>1</transmittable>
@@ -1478,8 +1478,8 @@ p, li { white-space: pre-wrap; }
             <enumNames>None</enumNames>
             <enumNames>ENNOID / DiebieMS</enumNames>
             <enumNames>VESC</enumNames>
-        </emitStatusProtocolType>
-        <emitStatusChargerProtocol>
+        </loadCANProtocol>
+        <chargerCANProtocol>
             <longName>Charger status protocol</longName>
             <type>4</type>
             <transmittable>1</transmittable>
@@ -1493,7 +1493,7 @@ p, li { white-space: pre-wrap; }
             <enumNames>None</enumNames>
             <enumNames>ELCON / TC charger</enumNames>
             <enumNames>Delta Q</enumNames>
-        </emitStatusChargerProtocol>
+        </chargerCANProtocol>
         <waterSensorEnableMask>
             <longName>Water sensor enable mask</longName>
             <type>2</type>
@@ -1670,7 +1670,7 @@ p, li { white-space: pre-wrap; }
             <vTx>5</vTx>
         </tempEnableMaskExpansion>
         <noOfTempSensorPerModule>
-            <longName>Temp sensor per board</longName>
+            <longName>Temp sensor per balancing IC</longName>
             <type>2</type>
             <transmittable>1</transmittable>
             <description>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
@@ -1766,12 +1766,11 @@ p, li { white-space: pre-wrap; }
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'DejaVu Sans'; ; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Use master BMS precharge for discharge output. Warning: Forced mode is only for hardware V1.0. Using this option with hardware V1.1 and above will damage the precharge circuit.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</description>
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Use master BMS precharge for discharge output.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</description>
             <cDefine>LC_USE_PRECHARGE</cDefine>
             <valInt>1</valInt>
             <enumNames>Disabled</enumNames>
             <enumNames>Enabled</enumNames>
-            <enumNames>Forced</enumNames>
         </LCUsePrecharge>
         <allowChargingDuringDischarge>
             <longName>Allow charging during discharge</longName>
@@ -2581,8 +2580,8 @@ p, li { white-space: pre-wrap; }
         <ser>CANID</ser>
         <ser>CANIDStyle</ser>
         <ser>CANBaudRate</ser>
-        <ser>emitStatusProtocolType</ser>
-        <ser>emitStatusChargerProtocol</ser>
+        <ser>loadCANProtocol</ser>
+        <ser>chargerCANProtocol</ser>
         <ser>tempEnableMaskBMS</ser>
         <ser>tempEnableMaskBattery</ser>
         <ser>tempEnableMaskExpansion</ser>

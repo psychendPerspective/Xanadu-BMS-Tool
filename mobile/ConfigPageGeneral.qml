@@ -111,8 +111,8 @@ Item {
                 createEditorMc("CANID")
                 createEditorMc("CANIDStyle")
                 createEditorMc("CANBaudRate")
-                createEditorMc("emitStatusProtocolType")
-                createEditorMc("emitStatusChargerProtocol")
+                createEditorMc("loadCANProtocol")
+                createEditorMc("ChargerCANProtocol")
                 break;
             case "CAN advanced features":
                 createEditorMc("useCANSafetyInput")
@@ -141,7 +141,6 @@ Item {
             case "NTC advanced settings":
                 createEditorMc("maxUnderAndOverTemperatureErrorCount")
                 createEditorMc("humidityICType")
-
 
                 break;
 

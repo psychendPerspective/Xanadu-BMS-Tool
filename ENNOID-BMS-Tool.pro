@@ -5,7 +5,7 @@
 #-------------------------------------------------
 INCLUDEPATH += $$PWD
 # Version
-DT_VERSION = 5.03
+DT_VERSION = 5.04
 DEFINES += DT_VERSION=$$DT_VERSION
 
 !android: {
@@ -18,7 +18,7 @@ QMAKE_CXXFLAGS += -Wno-deprecated-copy
 
 # Options
 #Build mobile GUI
-#CONFIG += build_mobile
+CONFIG += build_mobile
 
 
 # Bluetooth available

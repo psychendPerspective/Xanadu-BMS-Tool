@@ -78,8 +78,8 @@ void PageMasterGeneral::setDieBieMS(BMSInterface *dieBieMS)
         ui->canTab->addParamRow(mDieBieMS->bmsConfig(), "CANID");
         ui->canTab->addParamRow(mDieBieMS->bmsConfig(), "CANIDStyle");
         ui->canTab->addParamRow(mDieBieMS->bmsConfig(), "CANBaudRate");
-        ui->canTab->addParamRow(mDieBieMS->bmsConfig(), "emitStatusProtocolType");
-        ui->canTab->addParamRow(mDieBieMS->bmsConfig(), "emitStatusChargerProtocol");
+        ui->canTab->addParamRow(mDieBieMS->bmsConfig(), "loadCANProtocol");
+        ui->canTab->addParamRow(mDieBieMS->bmsConfig(), "chargerCANProtocol");
         ui->canTab->addRowSeparator(tr("CAN advanced features"));
         ui->canTab->addParamRow(mDieBieMS->bmsConfig(), "useCANSafetyInput");
         ui->canTab->addParamRow(mDieBieMS->bmsConfig(), "useCANDelayedPowerDown");
