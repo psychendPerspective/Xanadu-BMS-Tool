@@ -18,7 +18,7 @@ QMAKE_CXXFLAGS += -Wno-deprecated-copy
 
 # Options
 #Build mobile GUI
-CONFIG += build_mobile
+#CONFIG += build_mobile
 
 
 # Bluetooth available
@@ -39,7 +39,7 @@ contains(DEFINES, HAS_SERIALPORT) {
 android: QT += androidextras
 
 android: TARGET = ENNOID-BMS-Tool
-!android: TARGET = ENNOID-BMS-ToolV$$DT_VERSION
+!android: TARGET = Xanadu-BMS-ToolV$$DT_VERSION
 
 TEMPLATE = app
 

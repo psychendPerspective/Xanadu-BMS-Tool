@@ -151,9 +151,9 @@ void Utility::checkVersion(BMSInterface *dieBieMS)
 
         if (res.toDouble() > version.toDouble()) {
             if (dieBieMS) {
-                dieBieMS->emitStatusMessage("A new version of ENNOID-BMS Tool is available", true);
+                dieBieMS->emitStatusMessage("A new version of Xanadu-BMS Tool is available", true);
             } else {
-                qDebug() << "A new version of ENNOID-BMS Tool is available. Go to www.ennoid.me to download it"
+                qDebug() << "A new version of Xanadu-BMS Tool is available. Go to https://github.com/psychendPerspective/Xanadu-BMS-Tool/tree/Xanadu to download it"
                             "and get all the latest features.";
             }
         }
@@ -184,7 +184,13 @@ QString Utility::vescToolChangeLog()
 
 QString Utility::aboutText()
 {
-    return tr("<b>ENNOID-BMS Tool V%1</b><br>"
+    return tr("<b>Xanadu-BMS Tool V%1</b><br>"
+              "&copy; Vishal Bhat 2022 <br>"
+              "<a href=\"mailto:vishal.bhat09@gmail.com\">vishal.bhat09@gmail.com</a><br>"
+              "<a href=\"https://github.com/psychendPerspective/\">https://github.com/psychendPerspective/</a><br>"
+              "Based on: ENNOID-BMS-tool<br>"
+              "<br>"
+              "<b>ENNOID-BMS Tool V%1</b><br>"
               "&copy; Kevin Dionne 2019<br>"
               "<a href=\"mailto:kevin.dionne@ennoid.me\">kevin.dionne@ennoid.me</a><br>"
               "<a href=\"https://www.ennoid.me/\">https://www.ennoid.me/</a><br>"

@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'mainwindow.ui'
 **
-** Created by: Qt User Interface Compiler version 5.14.2
+** Created by: Qt User Interface Compiler version 5.15.2
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -238,9 +238,12 @@ public:
         pageLabel = new QLabel(centralWidget);
         pageLabel->setObjectName(QString::fromUtf8("pageLabel"));
         pageLabel->setEnabled(true);
-        pageLabel->setMaximumSize(QSize(220, 56));
-        pageLabel->setPixmap(QPixmap(QString::fromUtf8(":/res/logo.png")));
+        pageLabel->setMaximumSize(QSize(210, 80));
+        pageLabel->setTextFormat(Qt::RichText);
+        pageLabel->setPixmap(QPixmap(QString::fromUtf8("res/logo_xanadu.png")));
         pageLabel->setScaledContents(true);
+        pageLabel->setAlignment(Qt::AlignRight|Qt::AlignTop|Qt::AlignTrailing);
+        pageLabel->setWordWrap(false);
 
         verticalLayout_2->addWidget(pageLabel);
 
@@ -269,7 +272,7 @@ public:
         MainWindow->setCentralWidget(centralWidget);
         menuBar = new QMenuBar(MainWindow);
         menuBar->setObjectName(QString::fromUtf8("menuBar"));
-        menuBar->setGeometry(QRect(0, 0, 1054, 21));
+        menuBar->setGeometry(QRect(0, 0, 1054, 22));
         menuFile = new QMenu(menuBar);
         menuFile->setObjectName(QString::fromUtf8("menuFile"));
         menuHelp = new QMenu(menuBar);
@@ -345,7 +348,7 @@ public:
 
     void retranslateUi(QMainWindow *MainWindow)
     {
-        MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "ENNOID-BMS Tool", nullptr));
+        MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "Xanadu-BMS Tool", nullptr));
         actionReadBMScconf->setText(QCoreApplication::translate("MainWindow", "readBMScconf", nullptr));
 #if QT_CONFIG(tooltip)
         actionReadBMScconf->setToolTip(QCoreApplication::translate("MainWindow", "Read BMS Configuration", nullptr));
@@ -381,9 +384,9 @@ public:
         actionRtData->setToolTip(QCoreApplication::translate("MainWindow", "Stream realtime data", nullptr));
 #endif // QT_CONFIG(tooltip)
         actionExit->setText(QCoreApplication::translate("MainWindow", "Exit", nullptr));
-        actionAbout->setText(QCoreApplication::translate("MainWindow", "About ENNOID-BMS Tool", nullptr));
+        actionAbout->setText(QCoreApplication::translate("MainWindow", "About Xanadu-BMS Tool", nullptr));
 #if QT_CONFIG(tooltip)
-        actionAbout->setToolTip(QCoreApplication::translate("MainWindow", "About ENNOID-BMS Tool", nullptr));
+        actionAbout->setToolTip(QCoreApplication::translate("MainWindow", "About Xanadu-BMS Tool", nullptr));
 #endif // QT_CONFIG(tooltip)
         actionParameterEditorBMScconf->setText(QCoreApplication::translate("MainWindow", "Parameter Editor Config", nullptr));
         actionSaveBMSConfigurationHeader->setText(QCoreApplication::translate("MainWindow", "Save BMS Configuration C Header as...", nullptr));
@@ -420,9 +423,9 @@ public:
 #if QT_CONFIG(tooltip)
         actionWarrantyStatement->setToolTip(QCoreApplication::translate("MainWindow", "Limited Warranty Statement", nullptr));
 #endif // QT_CONFIG(tooltip)
-        actionDieBieMSToolChangelog->setText(QCoreApplication::translate("MainWindow", "ENNOID-BMS Tool Changelog", nullptr));
+        actionDieBieMSToolChangelog->setText(QCoreApplication::translate("MainWindow", "Xanadu-BMS Tool Changelog", nullptr));
 #if QT_CONFIG(tooltip)
-        actionDieBieMSToolChangelog->setToolTip(QCoreApplication::translate("MainWindow", "ENNOID-BMS Tool Changelog", nullptr));
+        actionDieBieMSToolChangelog->setToolTip(QCoreApplication::translate("MainWindow", "Xanadu-BMS Tool Changelog", nullptr));
 #endif // QT_CONFIG(tooltip)
         actionFirmwareChangelog->setText(QCoreApplication::translate("MainWindow", "Firmware Changelog", nullptr));
         actionLicense->setText(QCoreApplication::translate("MainWindow", "License", nullptr));

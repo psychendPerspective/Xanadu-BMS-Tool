@@ -36,8 +36,8 @@
 int main(int argc, char *argv[])
 {
     // Settings
-    QCoreApplication::setOrganizationName("DieBie");
-    QCoreApplication::setOrganizationDomain("diebie.nl");
+    QCoreApplication::setOrganizationName("Xanadu");
+    QCoreApplication::setOrganizationDomain("https://github.com/psychendPerspective");
     QCoreApplication::setApplicationName("Xanadu-BMS Tool");
 
     // DPI settings

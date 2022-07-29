@@ -119,7 +119,7 @@ MainWindow::MainWindow(QWidget *parent) :
         }
     }
 
-    mPageDebugPrint->printConsole("ENNOID-BMS Tool " + mVersion + " started<br>");
+    mPageDebugPrint->printConsole("Xanadu-BMS Tool " + mVersion + " started<br>");
 }
 
 MainWindow::~MainWindow()
@@ -425,7 +425,7 @@ void MainWindow::on_actionExit_triggered()
 
 void MainWindow::on_actionAbout_triggered()
 {
-    QMessageBox::about(this, "ENNOID-BMS Tool", Utility::aboutText());
+    QMessageBox::about(this, "Xanadu-BMS Tool", Utility::aboutText());
 }
 
 void MainWindow::on_actionLibrariesUsed_triggered()
@@ -630,9 +630,9 @@ void MainWindow::checkUdev()
             reply = QMessageBox::information(this,
                                              tr("Modemmenager"),
                                              tr("It looks like modemmanager is installed on your system, and that "
-                                                "there are no ENNOID-BMS udev rules installed. This will cause a delay "
-                                                "from when you plug in the ENNOID-BMS until you can use it. Would you like "
-                                                "to add a udev rule to prevent modemmanager from grabbing the ENNOID-BMS?"),
+                                                "there are no Xanadu-BMS udev rules installed. This will cause a delay "
+                                                "from when you plug in the Xanadu-BMS until you can use it. Would you like "
+                                                "to add a udev rule to prevent modemmanager from grabbing the Xanadu-BMS?"),
                                              QMessageBox::Yes | QMessageBox::No, QMessageBox::Yes);
 
             if (reply == QMessageBox::Yes) {
@@ -644,7 +644,7 @@ void MainWindow::checkUdev()
                     return;
                 }
 
-                f_vesc.write("# Prevent modemmanager from grabbing the ENNOID-BMS\n"
+                f_vesc.write("# Prevent modemmanager from grabbing the Xanadu-BMS\n"
                              "ATTRS{idVendor}==\"0483\", ATTRS{idProduct}==\"5740\", ENV{ID_MM_DEVICE_IGNORE}=\"1\"\n");
                 f_vesc.close();
 
@@ -819,7 +819,7 @@ void MainWindow::on_actionWarrantyStatement_triggered()
 
 void MainWindow::on_actionDieBieMSToolChangelog_triggered()
 {
-    HelpDialog::showHelp(this, "ENNOID-BMS Tool Changelog", Utility::vescToolChangeLog());
+    HelpDialog::showHelp(this, "Xanadu-BMS Tool Changelog", Utility::vescToolChangeLog());
 }
 
 void MainWindow::on_actionFirmwareChangelog_triggered()
