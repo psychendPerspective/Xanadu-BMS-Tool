@@ -348,7 +348,7 @@ public:
 
     void retranslateUi(QMainWindow *MainWindow)
     {
-        MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "Xanadu-BMS Tool", nullptr));
+        MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "ENNOID-BMS Tool", nullptr));
         actionReadBMScconf->setText(QCoreApplication::translate("MainWindow", "readBMScconf", nullptr));
 #if QT_CONFIG(tooltip)
         actionReadBMScconf->setToolTip(QCoreApplication::translate("MainWindow", "Read BMS Configuration", nullptr));

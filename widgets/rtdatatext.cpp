@@ -100,7 +100,9 @@ void RtDataText::paintEvent(QPaintEvent *event)
                                     "T\n");
 
     int boxh_new = br.height();
+    //qDebug("boxh_new value is : %d", boxh_new);
     int boxw_new = br.width();
+    //qDebug("boxw_new value is : %d", boxw_new);
     int txtofs_new = 5;
 
     if (mBoxH != boxh_new || mBoxW != boxw_new || mTxtOfs != txtofs_new) {
@@ -115,6 +117,7 @@ void RtDataText::paintEvent(QPaintEvent *event)
     const double bbox_w = mBoxW + 2 * mTxtOfs;
     const double bbow_h = mBoxH + 2 * mTxtOfs;
     const double vidw = event->rect().width();
+    //qDebug("vidw value is : %f", vidw);
 
     // Left info box
     str.sprintf("V Pack    : %.2f V\n"
@@ -165,11 +168,11 @@ void RtDataText::paintEvent(QPaintEvent *event)
                 mValues.WhCntChg);
 
     painter.setOpacity(0.7);
-    painter.fillRect(vidw / 2.0 - bbox_w / 2.0, 0, bbox_w, bbow_h, Qt::black);
+    painter.fillRect(vidw / 2.0 - bbox_w / 2.0 - 50, 0, bbox_w+50, bbow_h, Qt::black);
     painter.setOpacity(1.0);
 
     painter.setPen(Qt::white);
-    painter.drawText(QRectF(vidw / 2.0 - bbox_w / 2.0 + mTxtOfs, mTxtOfs, mBoxW, mBoxH),
+    painter.drawText(QRectF(vidw / 2.0 - bbox_w / 2.0 + mTxtOfs -50, mTxtOfs, bbox_w +50, mBoxH),
                      Qt::AlignLeft, str);
 
     // Right info box
@@ -193,9 +196,9 @@ void RtDataText::paintEvent(QPaintEvent *event)
                 mValues.WhCntDis);
 
     painter.setOpacity(0.7);
-    painter.fillRect(vidw - bbox_w, 0, bbox_w,mBoxH + 2 * mTxtOfs, Qt::black);
+    painter.fillRect(vidw - bbox_w - 100, 0, bbox_w + 100, mBoxH + 2 * mTxtOfs, Qt::black);
     painter.setOpacity(1.0);
 
     painter.setPen(Qt::white);
-    painter.drawText(QRectF(vidw - bbox_w + mTxtOfs, mTxtOfs, mBoxW, mBoxH),Qt::AlignLeft, str);
+    painter.drawText(QRectF(vidw - bbox_w + mTxtOfs -100, mTxtOfs, bbox_w + 100, mBoxH),Qt::AlignLeft, str);
 }
