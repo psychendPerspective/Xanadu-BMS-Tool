@@ -127,8 +127,8 @@ void RtDataText::paintEvent(QPaintEvent *event)
                 "CVAverage : %.3f V\n"
                 "CVLow     : %.3f V\n"
                 "CMismatch : %.3f V\n"
-                "Ah Counter: %.3f A\n"
-                "Wh Counter: %.3f W\n",
+                "Ah Counter: %.3f Ah\n"
+                "Wh Counter: %.3f Wh\n",
                 mValues.packVoltage,
                 mValues.packCurrent,
                 mValues.packCurrent * mValues.packVoltage,
@@ -155,8 +155,8 @@ void RtDataText::paintEvent(QPaintEvent *event)
                 "T BMS Avrg     : %.1f \u00B0C\n"
                 "T BMS Low      : %.1f \u00B0C\n"
                 "Humidity       : %.1f %%\n"
-                "Ah Charge Total: %.3f A\n"
-                "Wh Charge Total: %.3f W\n",
+                "Ah Charge Total: %.3f Ah\n"
+                "Wh Charge Total: %.3f Wh\n",
                 mValues.tempBattHigh,
                 mValues.tempBattAverage,
                 mValues.tempBattLow,
@@ -183,8 +183,8 @@ void RtDataText::paintEvent(QPaintEvent *event)
                 "SoC            : %i %%\n"
                 "OpState        : %s\n"
                 "FaultState     : %s\n"
-                "Ah Disharge Total: %.3f A\n"
-                "Wh Disharge Total: %.3f W\n",
+                "Ah Disharge Total: %.3f Ah\n"
+                "Wh Disharge Total: %.3f Wh\n",
                 mValues.loadLCVoltage,
                 mValues.packCurrent * mValues.loadLCVoltage,
                 mValues.chargerVoltage,

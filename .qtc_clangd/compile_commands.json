@@ -9945,10 +9945,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++-header",
-        "/home/psychendperspective/Documents/Xanadu-BMS-Tool/ui_pageconnection.h"
+        "/home/psychendperspective/Documents/Xanadu-BMS-Tool/ui_parameditbool.h"
     ],
     "directory": "/home/psychendperspective/Documents/Xanadu-BMS-Tool/.qtc_clangd",
-    "file": "/home/psychendperspective/Documents/Xanadu-BMS-Tool/ui_pageconnection.h"
+    "file": "/home/psychendperspective/Documents/Xanadu-BMS-Tool/ui_parameditbool.h"
 },
 {
     "arguments": [
@@ -10038,10 +10038,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++-header",
-        "/home/psychendperspective/Documents/Xanadu-BMS-Tool/ui_pagemastergeneral.h"
+        "/home/psychendperspective/Documents/Xanadu-BMS-Tool/ui_paramdialog.h"
     ],
     "directory": "/home/psychendperspective/Documents/Xanadu-BMS-Tool/.qtc_clangd",
-    "file": "/home/psychendperspective/Documents/Xanadu-BMS-Tool/ui_pagemastergeneral.h"
+    "file": "/home/psychendperspective/Documents/Xanadu-BMS-Tool/ui_paramdialog.h"
 },
 {
     "arguments": [
@@ -10131,10 +10131,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++-header",
-        "/home/psychendperspective/Documents/Xanadu-BMS-Tool/ui_pagemastersettings.h"
+        "/home/psychendperspective/Documents/Xanadu-BMS-Tool/ui_pagemasterdisplay.h"
     ],
     "directory": "/home/psychendperspective/Documents/Xanadu-BMS-Tool/.qtc_clangd",
-    "file": "/home/psychendperspective/Documents/Xanadu-BMS-Tool/ui_pagemastersettings.h"
+    "file": "/home/psychendperspective/Documents/Xanadu-BMS-Tool/ui_pagemasterdisplay.h"
 },
 {
     "arguments": [
@@ -10224,10 +10224,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++-header",
-        "/home/psychendperspective/Documents/Xanadu-BMS-Tool/ui_parameditdouble.h"
+        "/home/psychendperspective/Documents/Xanadu-BMS-Tool/ui_mainwindow.h"
     ],
     "directory": "/home/psychendperspective/Documents/Xanadu-BMS-Tool/.qtc_clangd",
-    "file": "/home/psychendperspective/Documents/Xanadu-BMS-Tool/ui_parameditdouble.h"
+    "file": "/home/psychendperspective/Documents/Xanadu-BMS-Tool/ui_mainwindow.h"
 },
 {
     "arguments": [
@@ -10317,10 +10317,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++-header",
-        "/home/psychendperspective/Documents/Xanadu-BMS-Tool/ui_pagesetupcalculators.h"
+        "/home/psychendperspective/Documents/Xanadu-BMS-Tool/ui_pagertdata.h"
     ],
     "directory": "/home/psychendperspective/Documents/Xanadu-BMS-Tool/.qtc_clangd",
-    "file": "/home/psychendperspective/Documents/Xanadu-BMS-Tool/ui_pagesetupcalculators.h"
+    "file": "/home/psychendperspective/Documents/Xanadu-BMS-Tool/ui_pagertdata.h"
 },
 {
     "arguments": [
@@ -10410,10 +10410,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++-header",
-        "/home/psychendperspective/Documents/Xanadu-BMS-Tool/ui_pagesettings.h"
+        "/home/psychendperspective/Documents/Xanadu-BMS-Tool/ui_pagemastersignals.h"
     ],
     "directory": "/home/psychendperspective/Documents/Xanadu-BMS-Tool/.qtc_clangd",
-    "file": "/home/psychendperspective/Documents/Xanadu-BMS-Tool/ui_pagesettings.h"
+    "file": "/home/psychendperspective/Documents/Xanadu-BMS-Tool/ui_pagemastersignals.h"
 },
 {
     "arguments": [
@@ -10503,10 +10503,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++-header",
-        "/home/psychendperspective/Documents/Xanadu-BMS-Tool/ui_pageslaveswitch.h"
+        "/home/psychendperspective/Documents/Xanadu-BMS-Tool/ui_mrichtextedit.h"
     ],
     "directory": "/home/psychendperspective/Documents/Xanadu-BMS-Tool/.qtc_clangd",
-    "file": "/home/psychendperspective/Documents/Xanadu-BMS-Tool/ui_pageslaveswitch.h"
+    "file": "/home/psychendperspective/Documents/Xanadu-BMS-Tool/ui_mrichtextedit.h"
 },
 {
     "arguments": [
@@ -10596,10 +10596,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++-header",
-        "/home/psychendperspective/Documents/Xanadu-BMS-Tool/ui_pageslavesettings.h"
+        "/home/psychendperspective/Documents/Xanadu-BMS-Tool/ui_pageterminal.h"
     ],
     "directory": "/home/psychendperspective/Documents/Xanadu-BMS-Tool/.qtc_clangd",
-    "file": "/home/psychendperspective/Documents/Xanadu-BMS-Tool/ui_pageslavesettings.h"
+    "file": "/home/psychendperspective/Documents/Xanadu-BMS-Tool/ui_pageterminal.h"
 },
 {
     "arguments": [
@@ -10689,10 +10689,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++-header",
-        "/home/psychendperspective/Documents/Xanadu-BMS-Tool/ui_pagewelcome.h"
+        "/home/psychendperspective/Documents/Xanadu-BMS-Tool/ui_pagedebugprint.h"
     ],
     "directory": "/home/psychendperspective/Documents/Xanadu-BMS-Tool/.qtc_clangd",
-    "file": "/home/psychendperspective/Documents/Xanadu-BMS-Tool/ui_pagewelcome.h"
+    "file": "/home/psychendperspective/Documents/Xanadu-BMS-Tool/ui_pagedebugprint.h"
 },
 {
     "arguments": [
@@ -10782,10 +10782,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++-header",
-        "/home/psychendperspective/Documents/Xanadu-BMS-Tool/ui_pagemastercell.h"
+        "/home/psychendperspective/Documents/Xanadu-BMS-Tool/ui_parameditint.h"
     ],
     "directory": "/home/psychendperspective/Documents/Xanadu-BMS-Tool/.qtc_clangd",
-    "file": "/home/psychendperspective/Documents/Xanadu-BMS-Tool/ui_pagemastercell.h"
+    "file": "/home/psychendperspective/Documents/Xanadu-BMS-Tool/ui_parameditint.h"
 },
 {
     "arguments": [
@@ -10875,196 +10875,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++-header",
-        "/home/psychendperspective/Documents/Xanadu-BMS-Tool/ui_pagedataanalysis.h"
+        "/home/psychendperspective/Documents/Xanadu-BMS-Tool/ui_pageslavefan.h"
     ],
     "directory": "/home/psychendperspective/Documents/Xanadu-BMS-Tool/.qtc_clangd",
-    "file": "/home/psychendperspective/Documents/Xanadu-BMS-Tool/ui_pagedataanalysis.h"
-},
-{
-    "arguments": [
-        "clang",
-        "-Wno-documentation-unknown-command",
-        "-Wno-unknown-warning-option",
-        "-Wno-unknown-pragmas",
-        "-nostdinc",
-        "-nostdinc++",
-        "-pipe",
-        "-Wno-deprecated-copy",
-        "-g",
-        "-std=gnu++11",
-        "-Wall",
-        "-Wextra",
-        "-D_REENTRANT",
-        "-fPIC",
-        "-fsyntax-only",
-        "-m64",
-        "--target=x86_64-linux-gnu",
-        "-DDT_VERSION=5.04",
-        "-DHAS_SERIALPORT",
-        "-DHAS_BLUETOOTH",
-        "-DQT_QML_DEBUG",
-        "-DQT_PRINTSUPPORT_LIB",
-        "-DQT_WIDGETS_LIB",
-        "-DQT_QUICKCONTROLS2_LIB",
-        "-DQT_QUICK_LIB",
-        "-DQT_GUI_LIB",
-        "-DQT_QMLMODELS_LIB",
-        "-DQT_QML_LIB",
-        "-DQT_NETWORK_LIB",
-        "-DQT_BLUETOOTH_LIB",
-        "-DQT_SERIALPORT_LIB",
-        "-DQT_CORE_LIB",
-        "-DQ_CREATOR_RUN",
-        "-I",
-        "/home/psychendperspective/Qt/Tools/QtCreator/share/qtcreator/cplusplus/wrappedQtHeaders",
-        "-I",
-        "/home/psychendperspective/Qt/Tools/QtCreator/share/qtcreator/cplusplus/wrappedQtHeaders/QtCore",
-        "-I",
-        "/home/psychendperspective/Documents/Xanadu-BMS-Tool",
-        "-I",
-        "/home/psychendperspective/Qt/5.15.2/gcc_64/include",
-        "-I",
-        "/home/psychendperspective/Qt/5.15.2/gcc_64/include/QtPrintSupport",
-        "-I",
-        "/home/psychendperspective/Qt/5.15.2/gcc_64/include/QtWidgets",
-        "-I",
-        "/home/psychendperspective/Qt/5.15.2/gcc_64/include/QtQuickControls2",
-        "-I",
-        "/home/psychendperspective/Qt/5.15.2/gcc_64/include/QtQuick",
-        "-I",
-        "/home/psychendperspective/Qt/5.15.2/gcc_64/include/QtGui",
-        "-I",
-        "/home/psychendperspective/Qt/5.15.2/gcc_64/include/QtQmlModels",
-        "-I",
-        "/home/psychendperspective/Qt/5.15.2/gcc_64/include/QtQml",
-        "-I",
-        "/home/psychendperspective/Qt/5.15.2/gcc_64/include/QtNetwork",
-        "-I",
-        "/home/psychendperspective/Qt/5.15.2/gcc_64/include/QtBluetooth",
-        "-I",
-        "/home/psychendperspective/Qt/5.15.2/gcc_64/include/QtSerialPort",
-        "-I",
-        "/home/psychendperspective/Qt/5.15.2/gcc_64/include/QtCore",
-        "-I",
-        "/home/psychendperspective/Qt/5.15.2/gcc_64/mkspecs/linux-g++",
-        "-isystem",
-        "/usr/include/c++/9",
-        "-isystem",
-        "/usr/include/x86_64-linux-gnu/c++/9",
-        "-isystem",
-        "/usr/include/c++/9/backward",
-        "-isystem",
-        "/usr/local/include",
-        "-isystem",
-        "/home/psychendperspective/Qt/Tools/QtCreator/libexec/qtcreator/clang/lib/clang/14.0.3/include",
-        "-isystem",
-        "/usr/include/x86_64-linux-gnu",
-        "-isystem",
-        "/usr/include",
-        "-fmessage-length=0",
-        "-fdiagnostics-show-note-include-stack",
-        "-fretain-comments-from-system-headers",
-        "-fmacro-backtrace-limit=0",
-        "-ferror-limit=1000",
-        "-x",
-        "c++-header",
-        "/home/psychendperspective/Documents/Xanadu-BMS-Tool/ui_pagemasterswitch.h"
-    ],
-    "directory": "/home/psychendperspective/Documents/Xanadu-BMS-Tool/.qtc_clangd",
-    "file": "/home/psychendperspective/Documents/Xanadu-BMS-Tool/ui_pagemasterswitch.h"
-},
-{
-    "arguments": [
-        "clang",
-        "-Wno-documentation-unknown-command",
-        "-Wno-unknown-warning-option",
-        "-Wno-unknown-pragmas",
-        "-nostdinc",
-        "-nostdinc++",
-        "-pipe",
-        "-Wno-deprecated-copy",
-        "-g",
-        "-std=gnu++11",
-        "-Wall",
-        "-Wextra",
-        "-D_REENTRANT",
-        "-fPIC",
-        "-fsyntax-only",
-        "-m64",
-        "--target=x86_64-linux-gnu",
-        "-DDT_VERSION=5.04",
-        "-DHAS_SERIALPORT",
-        "-DHAS_BLUETOOTH",
-        "-DQT_QML_DEBUG",
-        "-DQT_PRINTSUPPORT_LIB",
-        "-DQT_WIDGETS_LIB",
-        "-DQT_QUICKCONTROLS2_LIB",
-        "-DQT_QUICK_LIB",
-        "-DQT_GUI_LIB",
-        "-DQT_QMLMODELS_LIB",
-        "-DQT_QML_LIB",
-        "-DQT_NETWORK_LIB",
-        "-DQT_BLUETOOTH_LIB",
-        "-DQT_SERIALPORT_LIB",
-        "-DQT_CORE_LIB",
-        "-DQ_CREATOR_RUN",
-        "-I",
-        "/home/psychendperspective/Qt/Tools/QtCreator/share/qtcreator/cplusplus/wrappedQtHeaders",
-        "-I",
-        "/home/psychendperspective/Qt/Tools/QtCreator/share/qtcreator/cplusplus/wrappedQtHeaders/QtCore",
-        "-I",
-        "/home/psychendperspective/Documents/Xanadu-BMS-Tool",
-        "-I",
-        "/home/psychendperspective/Qt/5.15.2/gcc_64/include",
-        "-I",
-        "/home/psychendperspective/Qt/5.15.2/gcc_64/include/QtPrintSupport",
-        "-I",
-        "/home/psychendperspective/Qt/5.15.2/gcc_64/include/QtWidgets",
-        "-I",
-        "/home/psychendperspective/Qt/5.15.2/gcc_64/include/QtQuickControls2",
-        "-I",
-        "/home/psychendperspective/Qt/5.15.2/gcc_64/include/QtQuick",
-        "-I",
-        "/home/psychendperspective/Qt/5.15.2/gcc_64/include/QtGui",
-        "-I",
-        "/home/psychendperspective/Qt/5.15.2/gcc_64/include/QtQmlModels",
-        "-I",
-        "/home/psychendperspective/Qt/5.15.2/gcc_64/include/QtQml",
-        "-I",
-        "/home/psychendperspective/Qt/5.15.2/gcc_64/include/QtNetwork",
-        "-I",
-        "/home/psychendperspective/Qt/5.15.2/gcc_64/include/QtBluetooth",
-        "-I",
-        "/home/psychendperspective/Qt/5.15.2/gcc_64/include/QtSerialPort",
-        "-I",
-        "/home/psychendperspective/Qt/5.15.2/gcc_64/include/QtCore",
-        "-I",
-        "/home/psychendperspective/Qt/5.15.2/gcc_64/mkspecs/linux-g++",
-        "-isystem",
-        "/usr/include/c++/9",
-        "-isystem",
-        "/usr/include/x86_64-linux-gnu/c++/9",
-        "-isystem",
-        "/usr/include/c++/9/backward",
-        "-isystem",
-        "/usr/local/include",
-        "-isystem",
-        "/home/psychendperspective/Qt/Tools/QtCreator/libexec/qtcreator/clang/lib/clang/14.0.3/include",
-        "-isystem",
-        "/usr/include/x86_64-linux-gnu",
-        "-isystem",
-        "/usr/include",
-        "-fmessage-length=0",
-        "-fdiagnostics-show-note-include-stack",
-        "-fretain-comments-from-system-headers",
-        "-fmacro-backtrace-limit=0",
-        "-ferror-limit=1000",
-        "-x",
-        "c++-header",
-        "/home/psychendperspective/Documents/Xanadu-BMS-Tool/ui_helpdialog.h"
-    ],
-    "directory": "/home/psychendperspective/Documents/Xanadu-BMS-Tool/.qtc_clangd",
-    "file": "/home/psychendperspective/Documents/Xanadu-BMS-Tool/ui_helpdialog.h"
+    "file": "/home/psychendperspective/Documents/Xanadu-BMS-Tool/ui_pageslavefan.h"
 },
 {
     "arguments": [
@@ -11712,10 +11526,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++-header",
-        "/home/psychendperspective/Documents/Xanadu-BMS-Tool/ui_parameditint.h"
+        "/home/psychendperspective/Documents/Xanadu-BMS-Tool/ui_pagedataanalysis.h"
     ],
     "directory": "/home/psychendperspective/Documents/Xanadu-BMS-Tool/.qtc_clangd",
-    "file": "/home/psychendperspective/Documents/Xanadu-BMS-Tool/ui_parameditint.h"
+    "file": "/home/psychendperspective/Documents/Xanadu-BMS-Tool/ui_pagedataanalysis.h"
 },
 {
     "arguments": [
@@ -11805,10 +11619,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++-header",
-        "/home/psychendperspective/Documents/Xanadu-BMS-Tool/ui_pageslavefan.h"
+        "/home/psychendperspective/Documents/Xanadu-BMS-Tool/ui_pagemasterswitch.h"
     ],
     "directory": "/home/psychendperspective/Documents/Xanadu-BMS-Tool/.qtc_clangd",
-    "file": "/home/psychendperspective/Documents/Xanadu-BMS-Tool/ui_pageslavefan.h"
+    "file": "/home/psychendperspective/Documents/Xanadu-BMS-Tool/ui_pagemasterswitch.h"
 },
 {
     "arguments": [
@@ -11898,10 +11712,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++-header",
-        "/home/psychendperspective/Documents/Xanadu-BMS-Tool/ui_mrichtextedit.h"
+        "/home/psychendperspective/Documents/Xanadu-BMS-Tool/ui_helpdialog.h"
     ],
     "directory": "/home/psychendperspective/Documents/Xanadu-BMS-Tool/.qtc_clangd",
-    "file": "/home/psychendperspective/Documents/Xanadu-BMS-Tool/ui_mrichtextedit.h"
+    "file": "/home/psychendperspective/Documents/Xanadu-BMS-Tool/ui_helpdialog.h"
 },
 {
     "arguments": [
@@ -11991,10 +11805,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++-header",
-        "/home/psychendperspective/Documents/Xanadu-BMS-Tool/ui_pageterminal.h"
+        "/home/psychendperspective/Documents/Xanadu-BMS-Tool/ui_pageslaveswitch.h"
     ],
     "directory": "/home/psychendperspective/Documents/Xanadu-BMS-Tool/.qtc_clangd",
-    "file": "/home/psychendperspective/Documents/Xanadu-BMS-Tool/ui_pageterminal.h"
+    "file": "/home/psychendperspective/Documents/Xanadu-BMS-Tool/ui_pageslaveswitch.h"
 },
 {
     "arguments": [
@@ -12084,10 +11898,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++-header",
-        "/home/psychendperspective/Documents/Xanadu-BMS-Tool/ui_pagedebugprint.h"
+        "/home/psychendperspective/Documents/Xanadu-BMS-Tool/ui_pagemastercell.h"
     ],
     "directory": "/home/psychendperspective/Documents/Xanadu-BMS-Tool/.qtc_clangd",
-    "file": "/home/psychendperspective/Documents/Xanadu-BMS-Tool/ui_pagedebugprint.h"
+    "file": "/home/psychendperspective/Documents/Xanadu-BMS-Tool/ui_pagemastercell.h"
 },
 {
     "arguments": [
@@ -12177,10 +11991,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++-header",
-        "/home/psychendperspective/Documents/Xanadu-BMS-Tool/ui_mainwindow.h"
+        "/home/psychendperspective/Documents/Xanadu-BMS-Tool/ui_pageslavesettings.h"
     ],
     "directory": "/home/psychendperspective/Documents/Xanadu-BMS-Tool/.qtc_clangd",
-    "file": "/home/psychendperspective/Documents/Xanadu-BMS-Tool/ui_mainwindow.h"
+    "file": "/home/psychendperspective/Documents/Xanadu-BMS-Tool/ui_pageslavesettings.h"
 },
 {
     "arguments": [
@@ -12270,10 +12084,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++-header",
-        "/home/psychendperspective/Documents/Xanadu-BMS-Tool/ui_pagertdata.h"
+        "/home/psychendperspective/Documents/Xanadu-BMS-Tool/ui_pagesettings.h"
     ],
     "directory": "/home/psychendperspective/Documents/Xanadu-BMS-Tool/.qtc_clangd",
-    "file": "/home/psychendperspective/Documents/Xanadu-BMS-Tool/ui_pagertdata.h"
+    "file": "/home/psychendperspective/Documents/Xanadu-BMS-Tool/ui_pagesettings.h"
 },
 {
     "arguments": [
@@ -12363,10 +12177,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++-header",
-        "/home/psychendperspective/Documents/Xanadu-BMS-Tool/ui_pagemastersignals.h"
+        "/home/psychendperspective/Documents/Xanadu-BMS-Tool/ui_pagewelcome.h"
     ],
     "directory": "/home/psychendperspective/Documents/Xanadu-BMS-Tool/.qtc_clangd",
-    "file": "/home/psychendperspective/Documents/Xanadu-BMS-Tool/ui_pagemastersignals.h"
+    "file": "/home/psychendperspective/Documents/Xanadu-BMS-Tool/ui_pagewelcome.h"
 },
 {
     "arguments": [
@@ -12456,10 +12270,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++-header",
-        "/home/psychendperspective/Documents/Xanadu-BMS-Tool/ui_paramdialog.h"
+        "/home/psychendperspective/Documents/Xanadu-BMS-Tool/ui_pageconnection.h"
     ],
     "directory": "/home/psychendperspective/Documents/Xanadu-BMS-Tool/.qtc_clangd",
-    "file": "/home/psychendperspective/Documents/Xanadu-BMS-Tool/ui_paramdialog.h"
+    "file": "/home/psychendperspective/Documents/Xanadu-BMS-Tool/ui_pageconnection.h"
 },
 {
     "arguments": [
@@ -12549,10 +12363,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++-header",
-        "/home/psychendperspective/Documents/Xanadu-BMS-Tool/ui_parameditbool.h"
+        "/home/psychendperspective/Documents/Xanadu-BMS-Tool/ui_pagemastergeneral.h"
     ],
     "directory": "/home/psychendperspective/Documents/Xanadu-BMS-Tool/.qtc_clangd",
-    "file": "/home/psychendperspective/Documents/Xanadu-BMS-Tool/ui_parameditbool.h"
+    "file": "/home/psychendperspective/Documents/Xanadu-BMS-Tool/ui_pagemastergeneral.h"
 },
 {
     "arguments": [
@@ -12642,9 +12456,195 @@
         "-ferror-limit=1000",
         "-x",
         "c++-header",
-        "/home/psychendperspective/Documents/Xanadu-BMS-Tool/ui_pagemasterdisplay.h"
+        "/home/psychendperspective/Documents/Xanadu-BMS-Tool/ui_pagemastersettings.h"
     ],
     "directory": "/home/psychendperspective/Documents/Xanadu-BMS-Tool/.qtc_clangd",
-    "file": "/home/psychendperspective/Documents/Xanadu-BMS-Tool/ui_pagemasterdisplay.h"
+    "file": "/home/psychendperspective/Documents/Xanadu-BMS-Tool/ui_pagemastersettings.h"
+},
+{
+    "arguments": [
+        "clang",
+        "-Wno-documentation-unknown-command",
+        "-Wno-unknown-warning-option",
+        "-Wno-unknown-pragmas",
+        "-nostdinc",
+        "-nostdinc++",
+        "-pipe",
+        "-Wno-deprecated-copy",
+        "-g",
+        "-std=gnu++11",
+        "-Wall",
+        "-Wextra",
+        "-D_REENTRANT",
+        "-fPIC",
+        "-fsyntax-only",
+        "-m64",
+        "--target=x86_64-linux-gnu",
+        "-DDT_VERSION=5.04",
+        "-DHAS_SERIALPORT",
+        "-DHAS_BLUETOOTH",
+        "-DQT_QML_DEBUG",
+        "-DQT_PRINTSUPPORT_LIB",
+        "-DQT_WIDGETS_LIB",
+        "-DQT_QUICKCONTROLS2_LIB",
+        "-DQT_QUICK_LIB",
+        "-DQT_GUI_LIB",
+        "-DQT_QMLMODELS_LIB",
+        "-DQT_QML_LIB",
+        "-DQT_NETWORK_LIB",
+        "-DQT_BLUETOOTH_LIB",
+        "-DQT_SERIALPORT_LIB",
+        "-DQT_CORE_LIB",
+        "-DQ_CREATOR_RUN",
+        "-I",
+        "/home/psychendperspective/Qt/Tools/QtCreator/share/qtcreator/cplusplus/wrappedQtHeaders",
+        "-I",
+        "/home/psychendperspective/Qt/Tools/QtCreator/share/qtcreator/cplusplus/wrappedQtHeaders/QtCore",
+        "-I",
+        "/home/psychendperspective/Documents/Xanadu-BMS-Tool",
+        "-I",
+        "/home/psychendperspective/Qt/5.15.2/gcc_64/include",
+        "-I",
+        "/home/psychendperspective/Qt/5.15.2/gcc_64/include/QtPrintSupport",
+        "-I",
+        "/home/psychendperspective/Qt/5.15.2/gcc_64/include/QtWidgets",
+        "-I",
+        "/home/psychendperspective/Qt/5.15.2/gcc_64/include/QtQuickControls2",
+        "-I",
+        "/home/psychendperspective/Qt/5.15.2/gcc_64/include/QtQuick",
+        "-I",
+        "/home/psychendperspective/Qt/5.15.2/gcc_64/include/QtGui",
+        "-I",
+        "/home/psychendperspective/Qt/5.15.2/gcc_64/include/QtQmlModels",
+        "-I",
+        "/home/psychendperspective/Qt/5.15.2/gcc_64/include/QtQml",
+        "-I",
+        "/home/psychendperspective/Qt/5.15.2/gcc_64/include/QtNetwork",
+        "-I",
+        "/home/psychendperspective/Qt/5.15.2/gcc_64/include/QtBluetooth",
+        "-I",
+        "/home/psychendperspective/Qt/5.15.2/gcc_64/include/QtSerialPort",
+        "-I",
+        "/home/psychendperspective/Qt/5.15.2/gcc_64/include/QtCore",
+        "-I",
+        "/home/psychendperspective/Qt/5.15.2/gcc_64/mkspecs/linux-g++",
+        "-isystem",
+        "/usr/include/c++/9",
+        "-isystem",
+        "/usr/include/x86_64-linux-gnu/c++/9",
+        "-isystem",
+        "/usr/include/c++/9/backward",
+        "-isystem",
+        "/usr/local/include",
+        "-isystem",
+        "/home/psychendperspective/Qt/Tools/QtCreator/libexec/qtcreator/clang/lib/clang/14.0.3/include",
+        "-isystem",
+        "/usr/include/x86_64-linux-gnu",
+        "-isystem",
+        "/usr/include",
+        "-fmessage-length=0",
+        "-fdiagnostics-show-note-include-stack",
+        "-fretain-comments-from-system-headers",
+        "-fmacro-backtrace-limit=0",
+        "-ferror-limit=1000",
+        "-x",
+        "c++-header",
+        "/home/psychendperspective/Documents/Xanadu-BMS-Tool/ui_parameditdouble.h"
+    ],
+    "directory": "/home/psychendperspective/Documents/Xanadu-BMS-Tool/.qtc_clangd",
+    "file": "/home/psychendperspective/Documents/Xanadu-BMS-Tool/ui_parameditdouble.h"
+},
+{
+    "arguments": [
+        "clang",
+        "-Wno-documentation-unknown-command",
+        "-Wno-unknown-warning-option",
+        "-Wno-unknown-pragmas",
+        "-nostdinc",
+        "-nostdinc++",
+        "-pipe",
+        "-Wno-deprecated-copy",
+        "-g",
+        "-std=gnu++11",
+        "-Wall",
+        "-Wextra",
+        "-D_REENTRANT",
+        "-fPIC",
+        "-fsyntax-only",
+        "-m64",
+        "--target=x86_64-linux-gnu",
+        "-DDT_VERSION=5.04",
+        "-DHAS_SERIALPORT",
+        "-DHAS_BLUETOOTH",
+        "-DQT_QML_DEBUG",
+        "-DQT_PRINTSUPPORT_LIB",
+        "-DQT_WIDGETS_LIB",
+        "-DQT_QUICKCONTROLS2_LIB",
+        "-DQT_QUICK_LIB",
+        "-DQT_GUI_LIB",
+        "-DQT_QMLMODELS_LIB",
+        "-DQT_QML_LIB",
+        "-DQT_NETWORK_LIB",
+        "-DQT_BLUETOOTH_LIB",
+        "-DQT_SERIALPORT_LIB",
+        "-DQT_CORE_LIB",
+        "-DQ_CREATOR_RUN",
+        "-I",
+        "/home/psychendperspective/Qt/Tools/QtCreator/share/qtcreator/cplusplus/wrappedQtHeaders",
+        "-I",
+        "/home/psychendperspective/Qt/Tools/QtCreator/share/qtcreator/cplusplus/wrappedQtHeaders/QtCore",
+        "-I",
+        "/home/psychendperspective/Documents/Xanadu-BMS-Tool",
+        "-I",
+        "/home/psychendperspective/Qt/5.15.2/gcc_64/include",
+        "-I",
+        "/home/psychendperspective/Qt/5.15.2/gcc_64/include/QtPrintSupport",
+        "-I",
+        "/home/psychendperspective/Qt/5.15.2/gcc_64/include/QtWidgets",
+        "-I",
+        "/home/psychendperspective/Qt/5.15.2/gcc_64/include/QtQuickControls2",
+        "-I",
+        "/home/psychendperspective/Qt/5.15.2/gcc_64/include/QtQuick",
+        "-I",
+        "/home/psychendperspective/Qt/5.15.2/gcc_64/include/QtGui",
+        "-I",
+        "/home/psychendperspective/Qt/5.15.2/gcc_64/include/QtQmlModels",
+        "-I",
+        "/home/psychendperspective/Qt/5.15.2/gcc_64/include/QtQml",
+        "-I",
+        "/home/psychendperspective/Qt/5.15.2/gcc_64/include/QtNetwork",
+        "-I",
+        "/home/psychendperspective/Qt/5.15.2/gcc_64/include/QtBluetooth",
+        "-I",
+        "/home/psychendperspective/Qt/5.15.2/gcc_64/include/QtSerialPort",
+        "-I",
+        "/home/psychendperspective/Qt/5.15.2/gcc_64/include/QtCore",
+        "-I",
+        "/home/psychendperspective/Qt/5.15.2/gcc_64/mkspecs/linux-g++",
+        "-isystem",
+        "/usr/include/c++/9",
+        "-isystem",
+        "/usr/include/x86_64-linux-gnu/c++/9",
+        "-isystem",
+        "/usr/include/c++/9/backward",
+        "-isystem",
+        "/usr/local/include",
+        "-isystem",
+        "/home/psychendperspective/Qt/Tools/QtCreator/libexec/qtcreator/clang/lib/clang/14.0.3/include",
+        "-isystem",
+        "/usr/include/x86_64-linux-gnu",
+        "-isystem",
+        "/usr/include",
+        "-fmessage-length=0",
+        "-fdiagnostics-show-note-include-stack",
+        "-fretain-comments-from-system-headers",
+        "-fmacro-backtrace-limit=0",
+        "-ferror-limit=1000",
+        "-x",
+        "c++-header",
+        "/home/psychendperspective/Documents/Xanadu-BMS-Tool/ui_pagesetupcalculators.h"
+    ],
+    "directory": "/home/psychendperspective/Documents/Xanadu-BMS-Tool/.qtc_clangd",
+    "file": "/home/psychendperspective/Documents/Xanadu-BMS-Tool/ui_pagesetupcalculators.h"
 }
 ]
